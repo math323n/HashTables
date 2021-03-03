@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTables.ConsoleApp", "HashTables.ConsoleApp\HashTables.ConsoleApp.csproj", "{26A8E6CF-84ED-4051-B2D6-C424F1E8D016}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashTables.ConsoleApp", "HashTables.ConsoleApp\HashTables.ConsoleApp.csproj", "{26A8E6CF-84ED-4051-B2D6-C424F1E8D016}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTables.Library", "HashTables.Library\HashTables.Library.csproj", "{624F3137-8668-4785-AC2F-FCB18ABD002B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashTables.Library", "HashTables.Library\HashTables.Library.csproj", "{624F3137-8668-4785-AC2F-FCB18ABD002B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTables.Testing", "HashTables.Testing\HashTables.Testing.csproj", "{78D90082-E1F6-43C1-BC76-901D8F6EBBEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{624F3137-8668-4785-AC2F-FCB18ABD002B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{624F3137-8668-4785-AC2F-FCB18ABD002B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{624F3137-8668-4785-AC2F-FCB18ABD002B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D90082-E1F6-43C1-BC76-901D8F6EBBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D90082-E1F6-43C1-BC76-901D8F6EBBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D90082-E1F6-43C1-BC76-901D8F6EBBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D90082-E1F6-43C1-BC76-901D8F6EBBEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
